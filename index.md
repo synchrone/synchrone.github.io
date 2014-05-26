@@ -3,7 +3,7 @@
 
 > [Download PDF](aleksandr%20bogdanov%20software%20developer.pdf)
 
-> [syn@syn.im](syn@syn.im)
+> [syn@syn.im](mailto:syn@syn.im?subject=Software%20Developer%20Job%20Opportunity)
 
 > [github.com/synchrone](https://github.com/synchrone)
 
@@ -51,7 +51,7 @@ Whenbus.ru
     * Developed  a  mobile  device-oriented  website  for  a  city  transit  system  vehicle  arrival prediction  service,  tracking  more  than  1400 stations for  35  routes.
     * [Source code @ github](https://github.com/synchrone/busstop-pnz)
 
-[Moedelo.org](http://modedelo.org) (RU)
+[Moedelo.org](http://moedelo.org) (RU)
 : *C#, ASP.NET MVC4, MS SQL Server, MongoDB*
   __November 2012 - May 2013__
 
@@ -93,4 +93,4 @@ Microsoft Corp., Prometric
 
 ### Footer {#footer}
 
-Aleksandr Bogdanov -- [syn@syn.im](syn@syn.im) -- 2014
+Aleksandr Bogdanov -- [syn@syn.im](mailto:syn@syn.im?subject=Software%20Developer%20Job%20Opportunity) -- 2014
