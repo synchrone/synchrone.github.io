@@ -18,7 +18,7 @@ body.pdf {
     
     .resume {
         position:relative;
-        padding: 40px 80px;
+        padding: 0 80px;
         
         -webkit-box-shadow: none;
         box-shadow: none;
@@ -31,7 +31,7 @@ body.pdf {
     h1 {
         letter-spacing: 0;
         margin-top: 0;
-        font-size: 48px;
+        font-size: 38px;
         text-transform: uppercase;
         font-weight: normal;
     }
@@ -99,6 +99,15 @@ body.pdf {
         dt {
         }
         dd {
+            ul {
+                margin-left: 20px;
+                display: block;
+                list-style-type: disc;
+                li {
+                    float: none;
+                    width: auto;
+                }
+            }
         }
         strong {
             float: right;

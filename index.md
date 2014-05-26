@@ -1,7 +1,7 @@
 # Aleksandr Bogdanov
 ## Software Developer
 
-> [Download PDF](resume.pdf)
+> [Download PDF](aleksandr%20bogdanov%20software%20developer.pdf)
 
 > [syn@syn.im](syn@syn.im)
 
@@ -91,10 +91,6 @@ Microsoft Corp., Prometric
   Windows Development Fundamentals
     __2011__
 
-------
-
 ### Footer {#footer}
 
 Aleksandr Bogdanov -- [syn@syn.im](syn@syn.im) -- 2014
-
-------
