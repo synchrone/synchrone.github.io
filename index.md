@@ -1,5 +1,5 @@
 # Aleksandr Bogdanov
-## Software Developer
+## Backend Tech Lead at Home24
 
 > [Download PDF](aleksandr%20bogdanov%20software%20developer.pdf)
 
@@ -10,38 +10,43 @@
 ------
 
 ### Profile {#profile}
-
-Enjoying writing performant, neat software with a defined purpose that efficiently delivers business value. Developer productivity tools as well as utilities and infrastructure tasks are favored.
+Developing performant, neat software with a defined purpose that efficiently delivers business value. Developer productivity tools as well as utilities and infrastructure
 
 ------
 
 ### Technical {#technical}
 
-1. PHP 5.5
+1. PHP 5.6
 2. Java
 3. C#\Mono
 1. Git
 2. PostgreSQL
-3. ASP.NET MVC
-1. Apache Solr
-2. *nix, GNU Toolset
-3. MongoDB
-1. PHPUnit
+3. Apache Solr
+1. ASP.NET, NancyFx
 2. Ansible, Chef
-3. XML/XPath/SOAP
+3. Cryptography 
 
 ------
 
 
 ### Experience {#experience}
-[Home24 GmbH](http://home24.de)
+Tech Lead at [Home24 GmbH](http://home24.de)
+: *PHP 5.6, [Phalcon](http://phalconphp.com), [Codeception](http://codeception.com), RabbitMQ, AWS*
+  __November 2014 - present__
+
+    * Leading a team of 3 developers, defining the architecture for logistics-related processing code
+    * Starting a multi-executor acceptance testing project, providing QA team with the architecture for transparency and testcase code reusage
+    * Major checkout process refactoring to ensure code testability and performance
+    * Conducting technical interviews with promising applicants, making sure we always get a perfect candidate for the job
+
+Senior Backend Developer at [Home24 GmbH](http://home24.de)
 : *PHP, MySQL, Apache Solr*
-  __October 2013 - present__
+  __October 2013 - November 2014__
 
     * Optimizing a web e-commerce platform backend for runtime performance in a complex data environment
     * Data denormalization over Solr for performance, search and faceting (custom Java data handlers)
-    * Developer productivity tools development
-    * Internal 'git best practices' sessions
+    * Bringing developer productivity tools for a big team (60 devs) to make recurring tasks efficient
+    * Internal 'git best practices' sessions, improving branching strategy, conducting git history investigations
 
 
 Whenbus.ru
