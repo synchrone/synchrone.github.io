@@ -10,7 +10,8 @@
 ------
 
 ### Profile {#profile}
-Developing performant, neat software with a defined purpose that efficiently delivers business value. Developer productivity tools as well as utilities and infrastructure
+
+Guiding teams towards awesomeness by building reliable and performant products.
 
 ------
 
@@ -21,8 +22,8 @@ Developing performant, neat software with a defined purpose that efficiently del
 3. C#\Mono
 1. Git
 2. PostgreSQL
-3. Apache Solr
-1. ASP.NET, NancyFx
+3. ASP.NET, NancyFx
+1. Apache Solr
 2. Ansible, Chef
 3. Cryptography 
 
@@ -56,7 +57,7 @@ Whenbus.ru
     * Developed  a  mobile  device-oriented  website  for  a  city  transit  system  vehicle  arrival prediction  service,  tracking  more  than  1400 stations for  35  routes.
     * [Source code @ github](https://github.com/synchrone/busstop-pnz)
 
-[Moedelo.org](http://moedelo.org) (RU)
+[Moedelo.org](http://moedelo.org)
 : *C#, ASP.NET MVC4, MS SQL Server, MongoDB*
   __November 2012 - May 2013__
 
@@ -64,17 +65,9 @@ Whenbus.ru
       * Document file storage subsystem refactoring for high-load.
       * Marketing campaign features implementation.
 
-FP-Commerce GmbH (now Home24 GmbH)
-: *PHP, MySQL, Agavi, Propel*
-  __June 2011-Dec. 2011, March 2012__
-
-    * Developing a product aggregation system for a number of merchants tracking more than 200k products
-    * Order handling subsystem, supplier communication and Magento integration
-    * Product care tool development
-
-[ER-Telecom ISP](http://domru.ru) (RU)
+[ER-Telecom ISP](http://domru.ru)
 : *PHP, MySQL, PostgreSQL, BitTorrent*
-__2008-2012__
+__June 2008 - November 2012__
 
     * Designed and implemented an advanced file sharing system. Cross-domain messaging, bulletproof  uploading  system,  BitTorrent-based, Highload  optimized; user ratings and self-moderation algorithms included.
     * Created  a  2-tier  distributed  video-on-demand  delivery  system,  and a domain-specific content recommendation system.
@@ -84,7 +77,7 @@ __2008-2012__
 
 ### Education & Certificates {#education}
 Penza State Technological University
-: Informational Systems Service
+: Computer Science (diploma)
   __2008-2013__
 
 Zend Technologies Ltd.
