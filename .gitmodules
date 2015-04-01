@@ -1,0 +1,4 @@
+[submodule "vendor/synchrone/markdown-resume"]
+	path = vendor/synchrone/markdown-resume
+	url = https://github.com/synchrone/markdown-resume.git
+	branch = master
