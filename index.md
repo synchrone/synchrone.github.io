@@ -90,4 +90,4 @@ Microsoft Corp., Prometric
 
 ### Footer {#footer}
 
-Aleksandr Bogdanov -- [syn@syn.im](mailto:syn@syn.im?subject=Software%20Developer%20Job%20Opportunity) -- 2015
+Aleksandr Bogdanov -- [alex@syn.im](mailto:alex@syn.im?subject=Software%20Developer%20Job%20Opportunity) -- 2015
