@@ -31,7 +31,7 @@ Guiding teams towards awesomeness by building reliable and performant products.
 
 
 ### Experience {#experience}
-Tech Lead at [Home24 GmbH](http://home24.de)
+Tech Lead at [Home24 AG](http://home24.de)
 : *Internal tools team, leading 3 developers*
   __November 2014 - present__
 
@@ -74,6 +74,64 @@ __June 2008 - November 2012__
 
 ------
 
+
+### Side and personal projects {#sideprojects}
+
+[Calendars and Contacts](https://apps.sandstorm.io/app/8kr4rvyrggvzfvc160htzdt4u5rfvjc2dgdn27n5pt66mxa40m1h) app
+: *Python 3, Javascript, [Sandstorm.io](https://sandstorm.io)*
+__February 2016__
+
+    * Forked open source applications to provide an integrated solution for personal cloud and security sandbox platform
+    * Implementing CalDAV and CardDAV protocols, ensuring various client compatibility
+    * Contributing to sandstorm.io, working together with core developers in an open-source fashion
+    * Setting up acceptance test suite based on Apple's CalDAV server tools
+
+[Highcore project](https://github.com/sourcestream/highcore-api)
+: *Ansible, Sensu, Graphite/Grafana, AWS/CFN, AWS/SQS*
+__May 2015 - July 2015__
+
+    * Designed a workflow, enabling action traceability and issuer accountability
+    * Implemented parts of API backend, integrating AWS CloudFormation functionality with Sparkle template generator and Git
+    * Implemented a scalable metric gathering server, irrespective of the source (app/service/node)
+      * Metric-state-based alerting functionality
+      * Dashboards with actionable metric insights
+    * Implemented a flexible monitoring stack functionality, optimized for Cloud use
+      * Fully dynamic host (de-)registration
+      * Nagios-compatible checks
+
+Contributions to [Sovereign](https://github.com/sovereign/sovereign)
+: *Ansible, Bash*
+__August 2015, December 2014__
+
+    * Contributing to a set of tools for deploying a personal cloud
+    * ownCloud automatic configuration
+    * Roudcube automatic configuration; CardDAV plugin ownCloud integration
+    * ownCloud XMPP integration
+
+Contributions to [Prosody.im](https://prosody.im)
+: *XMPP\Jabber, Lua language, PostgreSQL*
+__July 2014 - December 2014__
+
+    * Implementing XEP-0136 (Message Archive) support from scratch
+    * Integrating XEP-0136 with mod_mam (XEP-0313) storage for compatibility
+
+The Red Button project
+: *Arduino/C*
+__October 2015__
+
+    * Implementing a programmable USB-keyboard emulating Big Button, emitting a shortcut
+    * UART-over-USB app-specific protocol implementation
+    * Storing programmed shortcuts in EEPROM energy-independent memory, with CRC consistency check
+
+UPnP Media Server
+: *C#, UPnP, vk.com*
+__October 2015__
+
+    * Implementing a UPnP Media Server
+    * Making online media resources available for compatible apps in the local network using an open protocol
+
+------
+
 ### Education & Certificates {#education}
 Penza State Technological University
 : Computer Science (diploma)
@@ -90,4 +148,4 @@ Microsoft Corp., Prometric
 
 ### Footer {#footer}
 
-Aleksandr Bogdanov -- [alex@syn.im](mailto:alex@syn.im?subject=Software%20Developer%20Job%20Opportunity) -- 2015
+Aleksandr Bogdanov -- [alex@syn.im](mailto:alex@syn.im?subject=Software%20Developer%20Job%20Opportunity) -- 2016

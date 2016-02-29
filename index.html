@@ -481,12 +481,12 @@ body.pdf h2 {
 }
 body.pdf h3 {
   float: left;
-  width: 16%;
+  width: 18%;
   font-style: normal;
 }
 body.pdf h3+p {
   float: left;
-  width: 84%;
+  width: 82%;
 }
 body.pdf blockquote {
   top: 45px;
@@ -514,7 +514,7 @@ body.pdf ul dl dd {
 }
 body.pdf ol {
   float: left;
-  width: 84%;
+  width: 82%;
   margin: .7em 0 0;
 }
 body.pdf ol li {
@@ -548,6 +548,9 @@ body.pdf dl strong {
 body.pdf dl em {
   font-size: 130%;
   font-style: normal;
+}
+body.pdf #sideprojects {
+  margin-top: 150pt;
 }
 
 @media screen and (min-width: 15em) {
@@ -756,7 +759,7 @@ body.pdf dl em {
 <h3 id="experience">Experience</h3>
 
 <dl>
-<dt>Tech Lead at <a target="_blank" href="http://home24.de">Home24 GmbH</a></dt>
+<dt>Tech Lead at <a target="_blank" href="http://home24.de">Home24 AG</a></dt>
 <dd>
 <p><em>Internal tools team, leading 3 developers</em>
 <strong>November 2014 - present</strong></p>
@@ -820,6 +823,95 @@ body.pdf dl em {
 
 <hr />
 
+<h3 id="sideprojects">Side and personal projects</h3>
+
+<dl>
+<dt><a target="_blank" href="https://apps.sandstorm.io/app/8kr4rvyrggvzfvc160htzdt4u5rfvjc2dgdn27n5pt66mxa40m1h">Calendars and Contacts</a> app</dt>
+<dd>
+<p><em>Python 3, Javascript, <a target="_blank" href="https://sandstorm.io">Sandstorm.io</a></em>
+<strong>February 2016</strong></p>
+
+<ul>
+<li>Forked open source applications to provide an integrated solution for personal cloud and security sandbox platform</li>
+<li>Implementing CalDAV and CardDAV protocols, ensuring various client compatibility</li>
+<li>Contributing to sandstorm.io, working together with core developers in an open-source fashion</li>
+<li>Setting up acceptance test suite based on Apple&#8217;s CalDAV server tools</li>
+</ul>
+</dd>
+
+<dt><a target="_blank" href="https://github.com/sourcestream/highcore-api">Highcore project</a></dt>
+<dd>
+<p><em>Ansible, Sensu, Graphite/Grafana, AWS/CFN, AWS/SQS</em>
+<strong>May 2015 - July 2015</strong></p>
+
+<ul>
+<li>Designed a workflow, enabling action traceability and issuer accountability</li>
+<li>Implemented parts of API backend, integrating AWS CloudFormation functionality with Sparkle template generator and Git</li>
+<li>Implemented a scalable metric gathering server, irrespective of the source (app/service/node)
+
+<ul>
+<li>Metric-state-based alerting functionality</li>
+<li>Dashboards with actionable metric insights</li>
+</ul></li>
+<li>Implemented a flexible monitoring stack functionality, optimized for Cloud use
+
+<ul>
+<li>Fully dynamic host (de-)registration</li>
+<li>Nagios-compatible checks</li>
+</ul></li>
+</ul>
+</dd>
+
+<dt>Contributions to <a target="_blank" href="https://github.com/sovereign/sovereign">Sovereign</a></dt>
+<dd>
+<p><em>Ansible, Bash</em>
+<strong>August 2015, December 2014</strong></p>
+
+<ul>
+<li>Contributing to a set of tools for deploying a personal cloud</li>
+<li>ownCloud automatic configuration</li>
+<li>Roudcube automatic configuration; CardDAV plugin ownCloud integration</li>
+<li>ownCloud XMPP integration</li>
+</ul>
+</dd>
+
+<dt>Contributions to <a target="_blank" href="https://prosody.im">Prosody.im</a></dt>
+<dd>
+<p><em>XMPP\Jabber, Lua language, PostgreSQL</em>
+<strong>July 2014 - December 2014</strong></p>
+
+<ul>
+<li>Implementing XEP-0136 (Message Archive) support from scratch</li>
+<li>Integrating XEP-0136 with mod_mam (XEP-0313) storage for compatibility</li>
+</ul>
+</dd>
+
+<dt>The Red Button project</dt>
+<dd>
+<p><em>Arduino/C</em>
+<strong>October 2015</strong></p>
+
+<ul>
+<li>Implementing a programmable USB-keyboard emulating Big Button, emitting a shortcut</li>
+<li>UART-over-USB app-specific protocol implementation</li>
+<li>Storing programmed shortcuts in EEPROM energy-independent memory, with CRC consistency check</li>
+</ul>
+</dd>
+
+<dt>UPnP Media Server</dt>
+<dd>
+<p><em>C#, UPnP, vk.com</em>
+<strong>October 2015</strong></p>
+
+<ul>
+<li>Implementing a UPnP Media Server</li>
+<li>Making online media resources available for compatible apps in the local network using an open protocol</li>
+</ul>
+</dd>
+</dl>
+
+<hr />
+
 <h3 id="education">Education &amp; Certificates</h3>
 
 <dl>
@@ -839,7 +931,7 @@ Windows Development Fundamentals
 
 <h3 id="footer">Footer</h3>
 
-<p>Aleksandr Bogdanov &#8212; <a href="mailto:alex@syn.im?subject=Software%20Developer%20Job%20Opportunity">alex@syn.im</a> &#8212; 2015</p>
+<p>Aleksandr Bogdanov &#8212; <a href="mailto:alex@syn.im?subject=Software%20Developer%20Job%20Opportunity">alex@syn.im</a> &#8212; 2016</p>
 
     </div>
 </div>
