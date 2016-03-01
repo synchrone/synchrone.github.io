@@ -22,7 +22,7 @@ Guiding teams towards awesomeness by building reliable and performant products.
 3. C#\Mono
 1. Git
 2. PostgreSQL
-3. ASP.NET, [NancyFx](http://nancyfx.org/)
+3. Docker
 1. AWS ([DynamoDB](http://aws.amazon.com/dynamodb), [SQS](http://aws.amazon.com/sqs), [CFN](http://aws.amazon.com/cloudformation))
 2. [Ansible](http://www.ansible.com/)
 3. Security, Cryptography
@@ -98,6 +98,17 @@ __May 2015 - July 2015__
     * Implemented a flexible monitoring stack functionality, optimized for Cloud use
       * Fully dynamic host (de-)registration
       * Nagios-compatible checks
+
+Transmission-in-Docker
+: *Docker, weave.works, weave.net*
+__November 2013, July 2014, October 2015__
+
+    * The aim was to encapsulate a transmission-daemon, a vpn client and a data storage server
+      inside a containerized network, making those applications play nice together, without being exposed to the host's network
+    * Weave was used as docker's custom network driver
+    * The project was re-activated multiple times, due to the tools gradually maturing
+    * Still work-in-progress due to the tooling limitations
+
 
 Contributions to [Sovereign](https://github.com/sovereign/sovereign)
 : *Ansible, Bash*
