@@ -5,5 +5,5 @@ php vendor/synchrone/markdown-resume/md2resume_dev.php html -t "`pwd`/template/"
 sed -i 's|href="http|target="_blank" href="http|g' index.html
 
 #running wkhtmltopdf in xvfb in xorgless env
-PATH=$(pwd):$PATH php vendor/synchrone/markdown-resume/md2resume_dev.php pdf -t "`pwd`/template/" index.md .
+php vendor/synchrone/markdown-resume/md2resume_dev.php pdf -t "`pwd`/template/" index.md .
 mv index.pdf aleksandr\ bogdanov\ software\ developer.pdf

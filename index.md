@@ -1,5 +1,5 @@
 # Aleksandr Bogdanov
-## Tech Lead at Home24
+## Backend/DevOps Specialist
 
 > [Download PDF](aleksandr%20bogdanov%20software%20developer.pdf)
 
@@ -11,29 +11,39 @@
 
 ### Profile {#profile}
 
-Guiding teams towards awesomeness by building reliable and performant products.
+Technology-non-bound engineer, looking for an infrastructure / platform challenge.
 
 ------
 
 ### Technical {#technical}
 
-1. PHP 7
+1. Python
 2. Java
-3. C#\Mono
+3. C#
 1. Git
-2. PostgreSQL
-3. Docker
-1. AWS ([DynamoDB](http://aws.amazon.com/dynamodb), [SQS](http://aws.amazon.com/sqs), [CFN](http://aws.amazon.com/cloudformation))
+2. PostgreSQL/PostGIS
+3. Docker/Kubernetes
+1. AWS ([CFN](http://aws.amazon.com/cloudformation), [DynamoDB](http://aws.amazon.com/dynamodb), [SQS](http://aws.amazon.com/sqs))
 2. [Ansible](http://www.ansible.com/)
-3. Security, Cryptography
+3. Security, Cryptography, GNU
 
 ------
 
 
 ### Experience {#experience}
+
+Cloud Platform Lead at [LOVOO GmbH](http://lovoo.com)
+: *Kubernetes, CoreOS, Go, Advanced AWS, Google Cloud*
+  __April 2016 - February 2017__
+
+    * Deploying a slew if microservices in Golang to a distributed cloud-based Kubernetes cluster, optimized to handle 1.5 Gbit/s of API traffic
+    * Internal Platform as a Service for the teams
+    * Fully automated deployments, canary releases, traffic shifting for blue\green
+    * Evaluating and benchmarking cloud providers for an optimal solution
+
 Tech Lead at [Home24 AG](http://home24.de)
 : *Internal tools team, leading 3 developers*
-  __November 2014 - present__
+  __November 2014 - April 2016__
 
     * Logistic calculations project, handling millions of entries (migrated [RabbitMQ](https://www.rabbitmq.com/) to [SQS](http://aws.amazon.com/sqs))
     * Massive 3rd party product data import re-architecture ([SQS](http://aws.amazon.com/sqs), [DynamoDB](http://aws.amazon.com/dynamodb), optimistic locking, Streaming XML)
@@ -126,7 +136,7 @@ __July 2014 - December 2014__
     * Implementing XEP-0136 (Message Archive) support from scratch
     * Integrating XEP-0136 with mod_mam (XEP-0313) storage for compatibility
 
-The Red Button project
+The [Red Button](https://github.com/sovereign/killswitch) project
 : *Arduino/C*
 __October 2015__
 
@@ -138,8 +148,8 @@ UPnP Media Server
 : *C#, UPnP, vk.com*
 __October 2015__
 
-    * Implementing a UPnP Media Server
-    * Making online media resources available for compatible apps in the local network using an open protocol
+    * Implementing a UPnP Media Server in C#/Mono
+    * Making online media resources available for compatible apps in the local network using an open standard protocol
 
 ------
 
