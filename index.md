@@ -1,9 +1,9 @@
 # Aleksandr Bogdanov
 ## Backend/DevOps Specialist
 
-> [Download PDF](aleksandr%20bogdanov%20software%20developer.pdf)
+> [Download PDF](cv%20aleksandr%20bogdanov.pdf)
 
-> [alex@syn.im](mailto:alex@syn.im?subject=Software%20Developer%20Job%20Opportunity)
+> [alex@syn.im](mailto:alex@syn.im?subject=Job%20Opportunity)
 
 > [github.com/synchrone](https://github.com/synchrone)
 
@@ -33,8 +33,8 @@ Technology-non-bound engineer, looking for an infrastructure / platform challeng
 ### Experience {#experience}
 
 Cloud Platform Lead at [LOVOO GmbH](http://lovoo.com)
-: *Kubernetes, CoreOS, Go, Advanced AWS, Google Cloud*
-  __April 2016 - February 2017__
+: *Kubernetes, CoreOS, Go, Advanced AWS & GCP*
+  __April 2016 - December 2016__
 
     * Deploying a slew if microservices in Golang to a distributed cloud-based Kubernetes cluster, optimized to handle 1.5 Gbit/s of API traffic
     * Internal Platform as a Service for the teams
@@ -117,7 +117,6 @@ __November 2013, July 2014, October 2015__
       inside a containerized network, making those applications play nice together, without being exposed to the host's network
     * Weave was used as docker's custom network driver
     * The project was re-activated multiple times, due to the tools gradually maturing
-    * Still work-in-progress due to the tooling limitations
 
 
 Contributions to [Sovereign](https://github.com/sovereign/sovereign)
@@ -143,13 +142,6 @@ __October 2015__
     * Implementing a programmable USB-keyboard emulating Big Button, emitting a shortcut
     * UART-over-USB app-specific protocol implementation
     * Storing programmed shortcuts in EEPROM energy-independent memory, with CRC consistency check
-
-UPnP Media Server
-: *C#, UPnP, vk.com*
-__October 2015__
-
-    * Implementing a UPnP Media Server in C#/Mono
-    * Making online media resources available for compatible apps in the local network using an open standard protocol
 
 ------
 
