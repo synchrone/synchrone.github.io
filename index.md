@@ -16,27 +16,33 @@ Technology-non-bound engineer, looking for an infrastructure / platform challeng
 ------
 
 ### Technical {#technical}
-
 1. Python
-2. Java
-3. C#
-1. Git
-2. PostgreSQL/PostGIS
-3. Docker/Kubernetes
-1. AWS ([CFN](http://aws.amazon.com/cloudformation), [DynamoDB](http://aws.amazon.com/dynamodb), [SQS](http://aws.amazon.com/sqs))
-2. [Ansible](http://www.ansible.com/)
-3. Security, Cryptography, GNU
+2. Docker/Kubernetes
+3. AWS ([CFN](http://aws.amazon.com/cloudformation), [DynamoDB](http://aws.amazon.com/dynamodb), [SQS](http://aws.amazon.com/sqs))
+1. PostgreSQL/PostGIS
+2. Continuous Delivery
+3. GCP ([BQ](https://cloud.google.com/bigquery/), BigTable, Dataflow)
 
 ------
 
-
 ### Experience {#experience}
+
+Senior Software Engineer at [Planet.com](https://www.planet.com)
+: *Kubernetes, Python, PostGIS, Google Cloud*
+  __February 2017 - present__
+
+    * Implementing platform permissions system to serve satellite imagery (Flask, SQLAlchemy, GDAL)
+    * Billing engine, enforcing area download quotas (Bottle, low-level PostGIS)
+    * [BigQuery](https://cloud.google.com/bigquery/)-based Internal Analytics app ([Google Datastudio](https://www.google.com/analytics/data-studio/) as a UI)
+    * Handling 200 Billing API requests per second (uwsgi, postgres locks/transactions)
+    * Fully automated Delivery pipeline
+    * Migrating from Amazon Web Services to Google Cloud Platform (SQS, RDS, Docker)
 
 Cloud Platform Lead at [LOVOO GmbH](http://lovoo.com)
 : *Kubernetes, CoreOS, Go, Advanced AWS & GCP*
   __April 2016 - December 2016__
 
-    * Deploying a slew if microservices in Golang to a distributed cloud-based Kubernetes cluster, optimized to handle 1.5 Gbit/s of API traffic
+    * Deploying a slew of microservices in Golang to a distributed Kubernetes cluster, optimized to handle 1.5 Gbit/s of API traffic
     * Internal Platform as a Service for the teams
     * Fully automated deployments, canary releases, traffic shifting for blue\green
     * Evaluating and benchmarking cloud providers for an optimal solution
@@ -59,21 +65,6 @@ Senior Backend Developer at [Home24 GmbH](http://home24.de)
     * Bringing developer productivity tools for a big team (70 devs) to make recurring tasks efficient
     * Internal 'git best practices' sessions, improving branching strategy, conducting git history investigations
 
-Sideproject of whenbus.ru
-: *PHP, Kohana 3.3, jQuery.Mobile*
-  __September-October 2013__
-
-    * Singlehandedly eveloped  a  mobile  device-oriented  website  for  a  city  transit  system  vehicle  arrival prediction  service,  tracking  more  than  1400 stations for  35  routes.
-    * [Source code @ github](https://github.com/synchrone/busstop-pnz)
-
-Fullstack Developer at [Moedelo.org](http://moedelo.org)
-: *C#, ASP.NET MVC4, MS SQL Server, MongoDB*
-  __November 2012 - May 2013__
-
-      * Online accounting product development for 300k+ users.
-      * Document file storage subsystem refactoring for high-load.
-      * Marketing campaign features implementation.
-
 Fullstack Developer with [ER-Telecom ISP](http://domru.ru)
 : *PHP, MySQL, PostgreSQL, BitTorrent*
 __June 2008 - November 2012__
@@ -86,6 +77,22 @@ __June 2008 - November 2012__
 
 
 ### Side and personal projects {#sideprojects}
+
+Kubernetes consulting
+: *Kubernetes, AWS, OpenVPN, Apache Spark*
+__May 2018__
+
+    * Implementing a PoC of K8S deployment for a client
+    * Persistent volumes provisioning
+    * Implementing a debug-on-cluster approach with IntelliJ IDEA, keeping HDFS in the cloud
+
+OSS Contributions to [Cloudron](https://cloudron.io/)
+: *[Terraform](http://terraform.io/), NodeJS, Google Cloud Platform*
+__September 2017, December 2017__
+  
+    * Fully functional app [deployment for both AWS and GCP](https://github.com/synchrone/cloudron-provisioning) 
+    * Implemented Google Cloud Storage backup driver from scratch
+    * Implemented Google Cloud DNS driver from scratch
 
 [Calendars and Contacts](https://apps.sandstorm.io/app/8kr4rvyrggvzfvc160htzdt4u5rfvjc2dgdn27n5pt66mxa40m1h) app
 : *Python 3, Javascript, [Sandstorm.io](https://sandstorm.io)*
@@ -107,16 +114,6 @@ __May 2015 - July 2015__
       * Dashboards with actionable metric insights
     * Implemented a flexible monitoring stack functionality, optimized for Cloud use
       * Fully dynamic host (de-)registration
-      * Nagios-compatible checks
-
-Transmission-in-Docker
-: *Docker, weave.works, weave.net*
-__November 2013, July 2014, October 2015__
-
-    * The aim was to encapsulate a transmission-daemon, a vpn client and a data storage server
-      inside a containerized network, making those applications play nice together, without being exposed to the host's network
-    * Weave was used as docker's custom network driver
-    * The project was re-activated multiple times, due to the tools gradually maturing
 
 
 Contributions to [Sovereign](https://github.com/sovereign/sovereign)
@@ -161,4 +158,4 @@ Microsoft Corp., Prometric
 
 ### Footer {#footer}
 
-Aleksandr Bogdanov -- [alex@syn.im](mailto:alex@syn.im?subject=Software%20Developer%20Job%20Opportunity) -- 2016
+Aleksandr Bogdanov -- [alex@syn.im](mailto:alex@syn.im?subject=Software%20Developer%20Job%20Opportunity) -- 2018
