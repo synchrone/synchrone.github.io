@@ -29,7 +29,7 @@ Technology-non-bound engineer, looking for an infrastructure / platform challeng
 
 Senior Software Engineer at [Planet.com](https://www.planet.com)
 : *Kubernetes, Python, PostGIS, Google Cloud*
-  __February 2017 - present__
+  __February 2017 - September 2018__
 
     * Implementing platform permissions system to serve satellite imagery (Flask, SQLAlchemy, GDAL)
     * Billing engine, enforcing area download quotas (Bottle, low-level PostGIS)
