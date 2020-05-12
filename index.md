@@ -1,5 +1,6 @@
 # Aleksandr Bogdanov
-## Backend/DevOps Specialist
+
+## Backend/DevOps Spezialist
 
 > [Download PDF](cv%20aleksandr%20bogdanov.pdf)
 
@@ -9,153 +10,212 @@
 
 ------
 
-### Profile {#profile}
+### Profil {#profile}
 
-Technology-non-bound engineer, looking for an infrastructure / platform challenge.
+An keine bestimmte Technologie oder Programmiersprache gebundener Software-Entwickler, interessiert an Plattformlösungen
 
 ------
 
-### Technical {#technical}
+### Technisches {#technical}
+
 1. Python
+
 2. Docker/Kubernetes
+
 3. AWS ([CFN](http://aws.amazon.com/cloudformation), [DynamoDB](http://aws.amazon.com/dynamodb), [SQS](http://aws.amazon.com/sqs))
+
 1. PostgreSQL/PostGIS
+
 2. Continuous Delivery
+
 3. GCP ([BQ](https://cloud.google.com/bigquery/), BigTable, Dataflow)
 
 ------
 
-### Experience {#experience}
+### Erfahrung {#experience}
 
-Senior Software Engineer at [Planet.com](https://www.planet.com)
+Senior Software Engineer bei [Planet.com](https://www.planet.com)
 : *Kubernetes, Python, PostGIS, Google Cloud*
-  __February 2017 - September 2018__
 
-    * Implementing platform permissions system to serve satellite imagery (Flask, SQLAlchemy, GDAL)
-    * Billing engine, enforcing area download quotas (Bottle, low-level PostGIS)
-    * [BigQuery](https://cloud.google.com/bigquery/)-based Internal Analytics app ([Google Datastudio](https://www.google.com/analytics/data-studio/) as a UI)
-    * Handling 200 Billing API requests per second (uwsgi, postgres locks/transactions)
-    * Fully automated Delivery pipeline
-    * Migrating from Amazon Web Services to Google Cloud Platform (SQS, RDS, Docker)
+  __Februar 2017 - September 2018__
 
-Cloud Platform Lead at [LOVOO GmbH](http://lovoo.com)
-: *Kubernetes, CoreOS, Go, Advanced AWS & GCP*
-  __April 2016 - December 2016__
+    * Abrechnungsautomatisierung, Durchsetzung von Download-Quoten für bestimmten Bereich (Bottle, low-level PostGIS)
 
-    * Deploying a slew of microservices in Golang to a distributed Kubernetes cluster, optimized to handle 1.5 Gbit/s of API traffic
-    * Internal Platform as a Service for the teams
-    * Fully automated deployments, canary releases, traffic shifting for blue\green
-    * Evaluating and benchmarking cloud providers for an optimal solution
+    * [BigQuery](https://cloud.google.com/bigquery/)-based Internal Analytics Applikation ([Google Datastudio](https://www.google.com/analytics/data-studio/) as a UI)
 
-Tech Lead at [Home24 AG](http://home24.de)
-: *Internal tools team, leading 3 developers*
-  __November 2014 - April 2016__
+    * Verarbeitung von 200 Rechnungs-API-Anforderungen pro Sekunde (uwsgi, postgres locks/transactions)
 
-    * Logistic calculations project, handling millions of entries (migrated [RabbitMQ](https://www.rabbitmq.com/) to [SQS](http://aws.amazon.com/sqs))
-    * Massive 3rd party product data import re-architecture ([SQS](http://aws.amazon.com/sqs), [DynamoDB](http://aws.amazon.com/dynamodb), optimistic locking, Streaming XML)
-    * Starting an acceptance testing project, providing QA with the architecture for transparency and testcase code reusage ([Codeception](http://codeception.com))
-    * Major webshop checkout refactoring for testability and performance
+    * Vollständig automatisierte Delivery-Pipeline
 
-Senior Backend Developer at [Home24 GmbH](http://home24.de)
-: *PHP, MySQL, Apache Solr*
-  __October 2013 - November 2014__
 
-    * Optimizing a web e-commerce platform backend for runtime performance in a complex data environment
-    * Data denormalization over Solr for performance, search and faceting (custom Java data handlers)
-    * Bringing developer productivity tools for a big team (70 devs) to make recurring tasks efficient
-    * Internal 'git best practices' sessions, improving branching strategy, conducting git history investigations
+Cloud Platform Lead bei [LOVOO GmbH](http://lovoo.com)
+: *Kubernetes, CoreOS, Go, Fortgeschrittenes AWS & GCP*
 
-Fullstack Developer with [ER-Telecom ISP](http://domru.ru)
+  __April 2016 - Dezember 2016__
+
+    * Bereitstellung einer Reihe von Mikrodiensten in Golang für einen verteilten Kubernetes-Cluster, optimiert für die Verarbeitung von 1,5 Gbit/s API-Verkehr
+
+    * Vollautomatische Einsätze, Canary-Freigaben, Traffic-Verlagerung für blau\grün
+
+    * Evaluierung und Benchmarking von Cloud-Anbietern für eine optimale Lösung
+
+
+Developer / Tech Lead bei [Home24 AG](http://home24.de)
+: *Internes Tools-Team*
+
+  __Oktober 2013 - April 2016__
+
+    * Logistikberechnungsprojekt, Bearbeitung von Millionen von Einträgen ([RabbitMQ](https://www.rabbitmq.com/) zu [SQS](http://aws.amazon.com/sqs) migriert)
+
+    * Massive Import-Architektur für Produktdaten von Drittanbietern ([SQS](http://aws.amazon.com/sqs), [DynamoDB](http://aws.amazon.com/dynamodb), "optimistic locking", Streaming XML)
+
+    * Start eines Abnahmetestprojekts, Bereitstellung der Architektur für Transparenz und Wiederverwendung von Testfallcode für die Qualitätssicherung ([Codeception](http://codeception.com))
+    
+    * Seit 2014: Mitarbeiterführung von 3 Entwickler 
+    
+    * Optimierung eines Web-E-Commerce-Plattform-Backends für die Laufzeitleistung in einer komplexen Datenumgebung
+
+    * Daten-Denormalisierung über Solr für Leistung, Suche und Facettierung (benutzerdefinierte Java-Datenhandler)
+
+    * Produktivitätswerkzeuge für Entwickler für ein großes Team (70 Entwickler), um wiederkehrende Aufgaben effizient zu gestalten
+
+Fullstack Developer bei [ER-Telecom ISP](http://domru.ru)
+
 : *PHP, MySQL, PostgreSQL, BitTorrent*
-__June 2008 - November 2012__
 
-    * Designed and implemented an advanced file sharing system. Cross-domain messaging, bulletproof  uploading  system,  BitTorrent-based, Highload  optimized; user ratings and self-moderation algorithms included.
-    * Created  a  2-tier  distributed  video-on-demand  delivery  system,  and a domain-specific content recommendation system.
-    * Online-gaming  services  maintenance;  developed  a  web-based  monitoring  system,  as  well  as championship management website
+  __Juni 2008 - November 2012__
+
+    * Entwicklung und Implementierung eines fortschrittlichen Dateifreigabesystems. Domänenübergreifendes Messaging, hochsicheres Upload-System, BitTorrent-basiert, hochlastoptimiert; einschließlich Benutzerbewertungen und Selbstmoderationsalgorithmen.
+
+    * Erstellung eines zweistufig verteilten Video-on-Demand-Bereitstellungssystems und ein domänenspezifisches Inhaltsempfehlungssystem.
+
+    * Technische Wartung und Instandhaltung von Online-Spielen; Entwicklung eines webbasierten Überwachungssystems sowie einer Website zur Verwaltung von Wettkämpfen/Turnieren
 
 ------
 
+### Neben- und persönliche Projekte {#sideprojects}
 
-### Side and personal projects {#sideprojects}
+Kubernetes Beratung
 
-Kubernetes consulting
 : *Kubernetes, AWS, OpenVPN, Apache Spark*
-__May 2018__
 
-    * Implementing a PoC of K8S deployment for a client
-    * Persistent volumes provisioning
-    * Implementing a debug-on-cluster approach with IntelliJ IDEA, keeping HDFS in the cloud
+  __Mai 2018__
 
-OSS Contributions to [Cloudron](https://cloudron.io/)
+    * Implementieren eines PoC der K8S-Bereitstellung für einen Kunden
+
+    * Bereitstellung anhaltender Volumina
+
+    * Implementierung eines Debug-on-Cluster-Ansatzes mit IntelliJ IDEA, wobei HDFS in der Cloud bleibt
+
+OSS Beiträge zu [Cloudron](https://cloudron.io/)
+
 : *[Terraform](http://terraform.io/), NodeJS, Google Cloud Platform*
-__September 2017, December 2017__
+
+  __September 2017, Dezember 2017__
+
   
-    * Fully functional app [deployment for both AWS and GCP](https://github.com/synchrone/cloudron-provisioning) 
-    * Implemented Google Cloud Storage backup driver from scratch
-    * Implemented Google Cloud DNS driver from scratch
 
-[Calendars and Contacts](https://apps.sandstorm.io/app/8kr4rvyrggvzfvc160htzdt4u5rfvjc2dgdn27n5pt66mxa40m1h) app
+    * Voll funktionsfähige Applikation [Einsatz für AWS und GCP](https://github.com/synchrone/cloudron-provisioning) 
+
+    * Google Cloud Storage-Backup-Treiber von Grund auf implementiert
+
+    * Google Cloud DNS-Treiber von Grund auf implementiert
+
+[Kalender und Kontakte](https://apps.sandstorm.io/app/8kr4rvyrggvzfvc160htzdt4u5rfvjc2dgdn27n5pt66mxa40m1h) App
+
 : *Python 3, Javascript, [Sandstorm.io](https://sandstorm.io)*
-__February 2016__
 
-    * Forked open source applications to provide an integrated solution for personal cloud and security sandbox platform
-    * Implementing CalDAV and CardDAV protocols, ensuring various client compatibility
-    * Contributing to sandstorm.io, working together with core developers in an open-source fashion
-    * Setting up acceptance test suite based on Apple's CalDAV server tools
+  __Februar 2016__
+
+    * Gabelung von Open-Source-Anwendungen, um eine integrierte Lösung für die Personal-Cloud- und Sicherheits-Sandbox-Plattform bereitzustellen
+
+    * Implementierung von CalDAV- und CardDAV-Protokollen, Gewährleistung verschiedener Client-Kompatibilität
+
+    * Mitwirkung an sandstorm.io, Zusammenarbeit mit Kernentwicklern auf Open-Source-Basis
+
+    * Einrichten einer Akzeptanztest-Suite basierend auf Apples CalDAV-Server-Tools
 
 [Highcore project](https://github.com/sourcestream/highcore-api)
+
 : *Ansible, Sensu, Graphite/Grafana, AWS/CFN, AWS/SQS*
-__May 2015 - July 2015__
 
-    * Designed a workflow, enabling action traceability and issuer accountability
-    * Implemented parts of API backend, integrating AWS CloudFormation functionality with Sparkle template generator and Git
-    * Implemented a scalable metric gathering server, irrespective of the source (app/service/node)
-      * Metric-state-based alerting functionality
-      * Dashboards with actionable metric insights
-    * Implemented a flexible monitoring stack functionality, optimized for Cloud use
-      * Fully dynamic host (de-)registration
+  __Mai 2015 - Juli 2015__
 
+    * Entwicklung eines Arbeitsablaufs, der die Rückverfolgbarkeit von Maßnahmen und die Verantwortlichkeit der Emittenten ermöglicht
 
-Contributions to [Sovereign](https://github.com/sovereign/sovereign)
+    * Teile des API-Backends implementiert und AWS CloudFormation-Funktionalität mit Sparkle-Vorlagengenerator und Git integriert
+
+    * Implementierung eines skalierbaren metrischen Sammlungsservers, unabhängig von der Quelle (app/service/node)
+
+      * Metrische zustandsbasierte Alarmierungsfunktionalität
+
+      * Dashboards mit verwertbaren metrischen Erkenntnissen
+
+    * Implementierung einer flexiblen Monitoring-Stack-Funktionalität, optimiert für den Einsatz in der Cloud
+
+      * Vollständig dynamische Host-(De-)Registrierung
+
+Beiträge zu [Sovereign](https://github.com/sovereign/sovereign)
+
 : *Ansible, Bash*
-__August 2015, December 2014__
 
-    * Contributing to a set of tools for deploying a personal cloud
-    * ownCloud automatic configuration
-    * Roudcube automatic configuration; CardDAV plugin ownCloud integration
-    * ownCloud XMPP integration
+  __August 2015, Dezember 2014__
 
-Contributions to [Prosody.im](https://prosody.im)
+    * Beitrag zu einer Reihe von Werkzeugen zur Bereitstellung einer Personal Cloud
+
+    * ownCloud automatische Konfiguration
+
+    * Automatische Roudcube-Konfiguration; CardDAV-Plugin ownCloud-Integration
+
+    * ownCloud-XMPP-Integration
+
+Beiträge zu [Prosody.im](https://prosody.im)
+
 : *XMPP\Jabber, Lua language, PostgreSQL*
-__July 2014 - December 2014__
 
-    * Implementing XEP-0136 (Message Archive) support from scratch
-    * Integrating XEP-0136 with mod_mam (XEP-0313) storage for compatibility
+  __Juli 2014 - Dezember 2014__
 
-The [Red Button](https://github.com/sovereign/killswitch) project
+    * XEP-0136 (Nachrichtenarchiv)-Unterstützung von Grund auf neu implementiert
+
+    * Integration von XEP-0136 mit mod_mam (XEP-0313)-Speicher aus Kompatibilitätsgründen
+
+Das [Red Button](https://github.com/sovereign/killswitch) Projekt
+
 : *Arduino/C*
-__October 2015__
 
-    * Implementing a programmable USB-keyboard emulating Big Button, emitting a shortcut
-    * UART-over-USB app-specific protocol implementation
-    * Storing programmed shortcuts in EEPROM energy-independent memory, with CRC consistency check
+  __Oktober 2015__
+
+    * Implementierung einer programmierbaren USB-Tastatur, die eine große Taste emuliert und eine Tastenkombination ausgibt
+
+    * UART-over-USB applikationsspezifische Protokoll-Implementierung
+
+    * Speichern von programmierten Verknüpfungen im energieunabhängigen EEPROM-Speicher, mit CRC-Konsistenzprüfung
 
 ------
 
-### Education & Certificates {#education}
+### Ausbildung & Zertifikate {#education}
+
 Penza State Technological University
-: Computer Science (diploma)
+
+: Informatik (Diplom)
+
   __2008-2013__
 
 Zend Technologies Ltd.
-: [PHP 5.3 Certified Engineer](http://www.zend.com/en/store/education/certification/yellow-pages.php#show-ClientCandidateID=ZEND017736)
+
+: [PHP 5.3 Zertifizierter Anwender](http://www.zend.com/en/store/education/certification/yellow-pages.php#show-ClientCandidateID=ZEND017736)
+
     __2011__
 
 Microsoft Corp., Prometric
+
 : Microsoft Certified Technology Associate,
+
   Windows Development Fundamentals
+
     __2011__
 
 ### Footer {#footer}
 
-Aleksandr Bogdanov -- [alex@syn.im](mailto:alex@syn.im?subject=Software%20Developer%20Job%20Opportunity) -- 2018
+Aleksandr Bogdanov -- [alex@syn.im](mailto:alex@syn.im?subject=Software%20Developer%20Job%20Opportunity) -- 2020
+
